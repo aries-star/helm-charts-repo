@@ -1,0 +1,68 @@
+apiVersion: v1
+entries:
+  nginx:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 1.23.2
+    created: "2022-12-08T12:51:16.180608305Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: NGINX Open Source is a web server that can be also used as a reverse
+      proxy, load balancer, and HTTP cache. Recommended for high-demanding sites due
+      to its ability to provide faster content.
+    digest: bccff574c55c3ce838a475d2084ec1cecc00b77637313960f3d2e9403f710aa6
+    home: https://github.com/bitnami/charts/tree/main/bitnami/nginx
+    icon: https://bitnami.com/assets/stacks/nginx/img/nginx-stack-220x234.png
+    keywords:
+    - nginx
+    - http
+    - web
+    - www
+    - reverse proxy
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: nginx
+    sources:
+    - https://github.com/bitnami/containers/tree/main/bitnami/nginx
+    - https://www.nginx.org
+    urls:
+    - https://aries-star.github.io/helm-charts-repo/nginx-13.2.14.tgz
+    version: 13.2.14
+  redis:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 7.0.5
+    created: "2022-12-08T12:51:16.188034037Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Redis(R) is an open source, advanced key-value store. It is often
+      referred to as a data structure server since keys can contain strings, hashes,
+      lists, sets and sorted sets.
+    digest: 27b1a4f63d6e4ba03778c7c355813b182d706c78d52c474c65cebc13cd75b9c7
+    home: https://github.com/bitnami/charts/tree/main/bitnami/redis
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: redis
+    sources:
+    - https://github.com/bitnami/containers/tree/main/bitnami/redis
+    urls:
+    - https://aries-star.github.io/helm-charts-repo/redis-17.3.11.tgz
+    version: 17.3.11
+generated: "2022-12-08T12:51:16.176456787Z"
